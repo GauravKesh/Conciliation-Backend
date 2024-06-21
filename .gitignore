@@ -5,3 +5,7 @@ node_modules/
 .env
 # Ignore .log extension files
 *.log
+
+# Ignore specific log files
+combined.log
+error.log
