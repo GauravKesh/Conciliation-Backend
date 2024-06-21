@@ -18,6 +18,14 @@ debugger;
 const urlfront= "https://conciliation-complain.vercel.app/resetPassword"
 //*   Middleware
 app.use(helmet());
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 app.use(
   cors({
     origin: "https://conciliation-complain.vercel.app",
