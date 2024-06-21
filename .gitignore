@@ -9,3 +9,4 @@ node_modules/
 # Ignore specific log files
 combined.log
 error.log
+combined.log
