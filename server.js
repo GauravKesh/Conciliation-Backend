@@ -20,7 +20,7 @@ const urlfront= "https://conciliation-complain.vercel.app/resetPassword"
 app.use(helmet());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://conciliation-complain.vercel.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
