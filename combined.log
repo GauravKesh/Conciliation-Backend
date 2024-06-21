@@ -6806,3 +6806,55 @@
 {"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 10:54:59"}
 {"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 10:54:59"}
 {"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 10:54:59"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 11:57:30"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 11:57:31"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 11:57:31"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 11:57:31"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 12:22:54"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 12:22:54"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 12:22:54"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 12:22:54"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 12:24:25"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 12:24:26"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 12:24:26"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 12:24:26"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 12:26:47"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 12:26:47"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 12:26:47"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 12:26:47"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 12:27:47"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 12:27:47"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 12:27:47"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 12:27:47"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 12:50:02"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 12:50:03"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 12:50:03"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 12:50:03"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 12:59:15"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 12:59:15"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 12:59:15"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 12:59:15"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 13:49:18"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 13:49:19"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 13:49:19"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 13:49:19"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 14:25:23"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 14:25:23"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 14:25:23"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 14:25:23"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 14:25:48"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 14:25:48"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 14:25:48"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 14:25:48"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 14:27:14"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 14:27:15"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 14:27:15"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 14:27:15"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 14:58:34"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 14:58:35"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 14:58:35"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 14:58:35"}
+{"level":"info","message":"Server running on http://localhost:8080","service":"user-service","timestamp":"2024-06-21 14:58:51"}
+{"level":"info","message":"Connected to MongoDB online","service":"user-service","timestamp":"2024-06-21 14:58:52"}
+{"level":"info","message":"Database connected successfully","service":"user-service","timestamp":"2024-06-21 14:58:52"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"user-service","timestamp":"2024-06-21 14:58:52"}

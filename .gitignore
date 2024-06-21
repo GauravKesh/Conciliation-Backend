@@ -3,3 +3,8 @@ node_modules/
 
 # Ignore .env files
 .env
+
+#ignore files
+
+/combined.log
+/error.log
