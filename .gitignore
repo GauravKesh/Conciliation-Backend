@@ -6,5 +6,5 @@ node_modules/
 
 #ignore files
 
-/combined.log
-/error.log
+combined.log
+error.log
