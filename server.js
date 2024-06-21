@@ -36,6 +36,8 @@ app.use(
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/uploads", express.static(path.join(__dirname, "uploads"))); // Serve uploaded files
+app.use(express.static("uploads")); // Serve public files
+
 
 /* GET TIME  */
 const time = () => {
