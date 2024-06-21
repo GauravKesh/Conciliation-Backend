@@ -14,9 +14,8 @@ const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-
 debugger;
-
+const urlfront= "https://conciliation-complain.vercel.app/resetPassword"
 //*   Middleware
 app.use(helmet());
 app.use(
@@ -331,8 +330,8 @@ app.post("/api/auth/password/reset/request", async (req, res) => {
         },
       }
     );
-
-    const resetLink = `http://localhost:3000/resetpassword?token=${token}&role=${role}`;
+    const resetLink = `https://conciliation-complain.vercel.app/resetPassword?token=${token}&role=${role}`;
+    console.log(resetLink);
     const emailResponse = await sendEmail(
       email,
       "Password Reset Link",
