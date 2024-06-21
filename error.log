@@ -1,0 +1,1704 @@
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 13:20:25"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to database: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 13:20:25"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Mongoose connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 13:20:25"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to MongoDB: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": 30,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1717598839
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "L1muE2xAzWa9iNoMHh6F21Aj8pM=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1353792042,
+                "lastWriteDate": {
+                    "$date": "2024-06-05T14:47:19Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 942,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 942,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az1",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 4,
+                    "processId": {
+                        "$oid": "66602b7b33bb315286ee4c60"
+                    }
+                },
+                "type": "RSSecondary"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1717598830
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "+NFjfot4xYh7k7S+6tgcHUCyWS4=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1353783198,
+                "lastWriteDate": {
+                    "$date": "2024-06-05T14:47:10Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 3186,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 3186,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az3",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 3,
+                    "processId": {
+                        "$oid": "66602cc0358c31d8b20acae0"
+                    }
+                },
+                "type": "RSSecondary"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353763456,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-05 20:17:20"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to database: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": 30,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1717598839
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "L1muE2xAzWa9iNoMHh6F21Aj8pM=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1353792042,
+                "lastWriteDate": {
+                    "$date": "2024-06-05T14:47:19Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 942,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 942,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az1",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 4,
+                    "processId": {
+                        "$oid": "66602b7b33bb315286ee4c60"
+                    }
+                },
+                "type": "RSSecondary"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1717598830
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "+NFjfot4xYh7k7S+6tgcHUCyWS4=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1353783198,
+                "lastWriteDate": {
+                    "$date": "2024-06-05T14:47:10Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 3186,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 3186,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az3",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 3,
+                    "processId": {
+                        "$oid": "66602cc0358c31d8b20acae0"
+                    }
+                },
+                "type": "RSSecondary"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353763456,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-05 20:17:20"
+}
+
+{
+    "code": "ESERVFAIL",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Mongoose connection error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 20:18:12"
+}
+
+{
+    "code": "ESERVFAIL",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to MongoDB: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 20:18:12"
+}
+
+{
+    "code": "ESERVFAIL",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to database: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 20:18:12"
+}
+
+{
+    "level": "error",
+    "message": "Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": 30,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 5,
+                            "t": 1717598918
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "G4pc7J4t59E2b9GMpfyJeFP2VNA=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1353871672,
+                "lastWriteDate": {
+                    "$date": "2024-06-05T14:48:38Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 131,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 145.66666666666666,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az1",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 4,
+                    "processId": {
+                        "$oid": "66602b7b33bb315286ee4c60"
+                    }
+                },
+                "type": "RSSecondary"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353850450,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353850450,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongooseServerSelectionError: Server selection timed out after 30000 ms\n    at _handleConnectionErrors (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/lib/connection.js:896:11)\n    at NativeConnection.openUri (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/lib/connection.js:847:11)",
+    "timestamp": "2024-06-05 20:18:47"
+}
+
+{
+    "connectionGeneration": 0,
+    "level": "error",
+    "message": "Error connecting to MongoDB: connection timed out",
+    "service": "user-service",
+    "stack": "MongoNetworkTimeoutError: connection timed out\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:355:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:269:43)\n    at Object.onceWrapper (node:events:633:28)\n    at TLSSocket.emit (node:events:519:28)\n    at Socket._onTimeout (node:net:589:8)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)",
+    "timestamp": "2024-06-05 20:19:09"
+}
+
+{
+    "connectionGeneration": 0,
+    "level": "error",
+    "message": "Error connecting to database: connection timed out",
+    "service": "user-service",
+    "stack": "MongoNetworkTimeoutError: connection timed out\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:355:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:269:43)\n    at Object.onceWrapper (node:events:633:28)\n    at TLSSocket.emit (node:events:519:28)\n    at Socket._onTimeout (node:net:589:8)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)",
+    "timestamp": "2024-06-05 20:19:09"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to MongoDB: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": null,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353918124,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353918124,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353918124,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-05 20:19:55"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to database: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": null,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353918124,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353918124,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1353918124,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-05 20:19:55"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 20:48:25"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to database: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 20:48:25"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Mongoose connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-05 20:48:25"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to MongoDB: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": null,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449239,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449239,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449239,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-06 12:02:04"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to database: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": null,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449239,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449239,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449239,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-06 12:02:04"
+}
+
+{
+    "level": "error",
+    "message": "Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": 30,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449278,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1410449278,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1717655513
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "ilxsKR457HLjflCzWPS8pdj7NIk=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1410470629,
+                "lastWriteDate": {
+                    "$date": "2024-06-06T06:31:53Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 5558,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 5558,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az2",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 3,
+                    "processId": {
+                        "$oid": "6660cac11b32faea10c924d7"
+                    }
+                },
+                "type": "RSSecondary"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongooseServerSelectionError: Server selection timed out after 30000 ms\n    at _handleConnectionErrors (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/lib/connection.js:896:11)\n    at NativeConnection.openUri (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/lib/connection.js:847:11)",
+    "timestamp": "2024-06-06 12:02:04"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to MongoDB: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": 30,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 4,
+                            "t": 1717656426
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "mwirM4nbjVKRxw0MpjUGo7fGajM=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1411381242,
+                "lastWriteDate": {
+                    "$date": "2024-06-06T06:47:06Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 2232,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 2232,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az1",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 4,
+                    "processId": {
+                        "$oid": "6660c79c4548181478b322ef"
+                    }
+                },
+                "type": "RSSecondary"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1411355493,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1717656418
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "zqDa0r7QM2viBSDw9x8I9ln21QE=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1411373460,
+                "lastWriteDate": {
+                    "$date": "2024-06-06T06:46:58Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 352,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 352,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az2",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 3,
+                    "processId": {
+                        "$oid": "6660cac11b32faea10c924d7"
+                    }
+                },
+                "type": "RSSecondary"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-06 12:17:10"
+}
+
+{
+    "level": "error",
+    "message": "Error connecting to database: Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": 30,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 4,
+                            "t": 1717656426
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "mwirM4nbjVKRxw0MpjUGo7fGajM=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1411381242,
+                "lastWriteDate": {
+                    "$date": "2024-06-06T06:47:06Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 2232,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 2232,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az1",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 4,
+                    "processId": {
+                        "$oid": "6660c79c4548181478b322ef"
+                    }
+                },
+                "type": "RSSecondary"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 1411355493,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1717656418
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "zqDa0r7QM2viBSDw9x8I9ln21QE=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 1411373460,
+                "lastWriteDate": {
+                    "$date": "2024-06-06T06:46:58Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 352,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 352,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 13,
+                "tags": {
+                    "availabilityZone": "aps1-az2",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 3,
+                    "processId": {
+                        "$oid": "6660cac11b32faea10c924d7"
+                    }
+                },
+                "type": "RSSecondary"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongoServerSelectionError: Server selection timed out after 30000 ms\n    at Topology.selectServer (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)\n    at async Topology._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:196:28)\n    at async Topology.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/sdam/topology.js:158:13)\n    at async topologyConnect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:204:17)\n    at async MongoClient._connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:217:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:142:13)\n    at async MongoClient.connect (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/mongo_client.js:295:16)",
+    "timestamp": "2024-06-06 12:17:10"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Mongoose connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-08 10:04:27"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-08 10:04:27"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to database: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-08 10:04:27"
+}
+
+{
+    "connectionGeneration": 2,
+    "level": "error",
+    "message": "Error connecting to MongoDB: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:32:59"
+}
+
+{
+    "connectionGeneration": 2,
+    "level": "error",
+    "message": "Error connecting to database: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:32:59"
+}
+
+{
+    "connectionGeneration": 1,
+    "level": "error",
+    "message": "Error connecting to MongoDB: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:33:23"
+}
+
+{
+    "connectionGeneration": 1,
+    "level": "error",
+    "message": "Error connecting to database: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:33:23"
+}
+
+{
+    "connectionGeneration": 1,
+    "level": "error",
+    "message": "Error connecting to MongoDB: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:35:38"
+}
+
+{
+    "connectionGeneration": 1,
+    "level": "error",
+    "message": "Error connecting to database: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:35:38"
+}
+
+{
+    "connectionGeneration": 1,
+    "level": "error",
+    "message": "Mongoose connection error: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:35:38"
+}
+
+{
+    "connectionGeneration": 1,
+    "level": "error",
+    "message": "Mongoose connection error: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-08 22:36:04"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Mongoose connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-10 10:44:23"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-10 10:44:23"
+}
+
+{
+    "code": "ETIMEOUT",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to database: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-10 10:44:23"
+}
+
+{
+    "code": "ESERVFAIL",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to MongoDB: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-10 22:50:21"
+}
+
+{
+    "code": "ESERVFAIL",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Error connecting to database: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-10 22:50:21"
+}
+
+{
+    "code": "ESERVFAIL",
+    "hostname": "_mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "level": "error",
+    "message": "Mongoose connection error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net",
+    "service": "user-service",
+    "stack": "Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)",
+    "syscall": "querySrv",
+    "timestamp": "2024-06-10 22:50:21"
+}
+
+{
+    "connectionGeneration": 1,
+    "level": "error",
+    "message": "Mongoose connection error: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-10 22:50:51"
+}
+
+{
+    "connectionGeneration": 0,
+    "level": "error",
+    "message": "Mongoose connection error: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-10 22:51:21"
+}
+
+{
+    "connectionGeneration": 2,
+    "level": "error",
+    "message": "Error connecting to MongoDB: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-10 22:51:34"
+}
+
+{
+    "connectionGeneration": 2,
+    "level": "error",
+    "message": "Error connecting to database: connect ETIMEDOUT 43.204.206.126:27017",
+    "service": "user-service",
+    "stack": "MongoNetworkError: connect ETIMEDOUT 43.204.206.126:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "timestamp": "2024-06-10 22:51:34"
+}
+
+{
+    "level": "error",
+    "message": "Server selection timed out after 30000 ms",
+    "reason": {
+        "commonWireVersion": 0,
+        "compatible": true,
+        "heartbeatFrequencyMS": 10000,
+        "localThresholdMS": 15,
+        "logicalSessionTimeoutMinutes": 30,
+        "maxElectionId": null,
+        "maxSetVersion": null,
+        "servers": {
+            "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 87417809,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": null,
+                "address": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [],
+                "lastUpdateTime": 87417809,
+                "lastWriteDate": 0,
+                "logicalSessionTimeoutMinutes": null,
+                "maxWireVersion": 0,
+                "me": null,
+                "minRoundTripTime": 0,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": null,
+                "roundTripTime": -1,
+                "setName": null,
+                "setVersion": null,
+                "tags": {},
+                "topologyVersion": null,
+                "type": "Unknown"
+            },
+            "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017": {
+                "$clusterTime": {
+                    "clusterTime": {
+                        "$timestamp": {
+                            "i": 3,
+                            "t": 1718383297
+                        }
+                    },
+                    "signature": {
+                        "hash": {
+                            "$binary": {
+                                "base64": "EYl5r3iR5qHA0h3osTKwRPVnFjg=",
+                                "subType": "00"
+                            }
+                        },
+                        "keyId": 7344260300813631000
+                    }
+                },
+                "address": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "arbiters": [],
+                "electionId": null,
+                "error": null,
+                "hosts": [
+                    "ac-joimm6k-shard-00-00.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                    "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017"
+                ],
+                "lastUpdateTime": 87442634,
+                "lastWriteDate": {
+                    "$date": "2024-06-14T16:41:37Z"
+                },
+                "logicalSessionTimeoutMinutes": 30,
+                "maxWireVersion": 21,
+                "me": "ac-joimm6k-shard-00-02.ribtrjl.mongodb.net:27017",
+                "minRoundTripTime": 58,
+                "minWireVersion": 0,
+                "passives": [],
+                "primary": "ac-joimm6k-shard-00-01.ribtrjl.mongodb.net:27017",
+                "roundTripTime": 58,
+                "setName": "atlas-7ob06x-shard-0",
+                "setVersion": 16,
+                "tags": {
+                    "availabilityZone": "aps1-az2",
+                    "diskState": "READY",
+                    "nodeType": "ELECTABLE",
+                    "provider": "AWS",
+                    "region": "AP_SOUTH_1",
+                    "workloadType": "OPERATIONAL"
+                },
+                "topologyVersion": {
+                    "counter": 5,
+                    "processId": {
+                        "$oid": "66697d4f454a2b71fa6e9238"
+                    }
+                },
+                "type": "RSSecondary"
+            }
+        },
+        "setName": "atlas-7ob06x-shard-0",
+        "stale": false,
+        "type": "ReplicaSetNoPrimary"
+    },
+    "service": "user-service",
+    "stack": "MongooseServerSelectionError: Server selection timed out after 30000 ms\n    at _handleConnectionErrors (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/lib/connection.js:896:11)\n    at NativeConnection.openUri (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongoose/lib/connection.js:847:11)",
+    "timestamp": "2024-06-14 22:11:42"
+}
+{"connectionGeneration":0,"level":"error","message":"Error connecting to MongoDB: connect ETIMEDOUT 3.7.152.226:27017","service":"user-service","stack":"MongoNetworkError: connect ETIMEDOUT 3.7.152.226:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-06-17 00:38:45"}
+{"connectionGeneration":0,"level":"error","message":"Error connecting to database: connect ETIMEDOUT 3.7.152.226:27017","service":"user-service","stack":"MongoNetworkError: connect ETIMEDOUT 3.7.152.226:27017\n    at connectionFailureError (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:353:20)\n    at TLSSocket.<anonymous> (/Users/gaurav/Desktop/Accura/training/Task-6/userComplaint/Backend/node_modules/mongodb/lib/cmap/connect.js:268:44)\n    at Object.onceWrapper (node:events:634:26)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-06-17 00:38:45"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.ribtrjl.mongodb.net","level":"error","message":"Mongoose connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net","service":"user-service","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2024-06-18 21:25:32"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.ribtrjl.mongodb.net","level":"error","message":"Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net","service":"user-service","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2024-06-18 21:25:32"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.ribtrjl.mongodb.net","level":"error","message":"Error connecting to database: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net","service":"user-service","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ribtrjl.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2024-06-18 21:25:32"}
