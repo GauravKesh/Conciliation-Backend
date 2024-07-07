@@ -22,7 +22,7 @@ app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
+    "Origin, X-Requested-With, Content-Type, Content-Type, Accept'"
   );
   next();
 });
@@ -45,7 +45,7 @@ app.use((req, res, next) => {
   next();
 });
 app.use(
-  "/uploads",
+  "https://conciliation-complain.vercel.app/uploads",
   (req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.header(
