@@ -181,7 +181,7 @@ app.post("/api/auth/login", async (req, res) => {
                 user = await db.collection("users").updateOne(
                   { username },
                   {
-                    $set: { activeSession: true, lastLoggedIn: lastLoggedIn },
+                    $set: { activeSession: false, lastLoggedIn: lastLoggedIn },
                   }
                 );
                 break;
@@ -189,7 +189,7 @@ app.post("/api/auth/login", async (req, res) => {
                 user = await db.collection("technician").updateOne(
                   { username },
                   {
-                    $set: { activeSession: true, lastLoggedIn: lastLoggedIn },
+                    $set: { activeSession: false, lastLoggedIn: lastLoggedIn },
                   }
                 );
                 break;
@@ -197,7 +197,7 @@ app.post("/api/auth/login", async (req, res) => {
                 user = await db.collection("admin").updateOne(
                   { username },
                   {
-                    $set: { activeSession: true, lastLoggedIn: lastLoggedIn },
+                    $set: { activeSession: false, lastLoggedIn: lastLoggedIn },
                   }
                 );
                 break;
