@@ -33,6 +33,13 @@ app.use(
     credentials: true,
   })
 );
+// Assuming you're using Express.js or a similar framework
+   app.use((req, res, next) => {
+       res.header('Access-Control-Allow-Origin', 'https://conciliation-complain.vercel.app'); 
+       res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Adjust methods as needed
+       res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+       next();
+   });
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/uploads", express.static(path.join(__dirname, "uploads"))); // Serve uploaded files
